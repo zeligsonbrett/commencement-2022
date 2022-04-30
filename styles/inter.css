@@ -1,0 +1,67 @@
+
+* {
+/* 
+    background: #000 !important;
+   color: #0f0 !important;
+   outline: solid #f00 1px !important; */
+  }
+  
+
+
+a > p {
+  font-family: franklin-gothic-urw, sans-serif;
+  font-size: 50px;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-align: center;
+  color: black;
+
+
+}
+
+a > p:hover {
+  text-decoration: underline;
+}
+
+a > p:active {
+  color: orange;
+}
+
+
+img {
+  width: 60vw;
+  
+}
+
+.ad{
+  padding-top: 10px;
+  margin: auto;
+  text-align: center;
+}
+
+a > h1{
+   color: black;
+}
+
+.logo{
+  margin: auto;
+  text-align: center
+}
+
+@media screen and (max-width: 800px) {
+
+   a > p {
+     font-size: 30px;
+   }
+
+img {
+  width: 70vw;
+  
+
+
+}
+
+
+
+
+  }
