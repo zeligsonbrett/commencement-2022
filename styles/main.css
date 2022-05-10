@@ -245,7 +245,7 @@ h5 {
 
 .header{
 
-  background-image: url("covercompressed.jpg");
+background-image: url("covercompressed.jpg");
  background-size: cover;
  background-attachment: initial;
  background-position: bottom;
@@ -632,15 +632,15 @@ h3.date{
 }
 
 .color-yeartwo {
-  background-color: #D6CDB3;
+  background-color: #ecd3c3;
 }
 
 .color-yearthree {
-  background-color: #EFCFB9;
+  background-color: #a7c4c0;
 }
 
 .color-yearfour {
-  background-color: #9FBEAA;
+  background-color: #abba92;
 }
 
 .color-yeargrad {
@@ -703,7 +703,7 @@ h3.date{
 }
 
 .color-next{
-  background-color: #AC899E;
+  background-color: #e4b68a;
 }
 
 .color-ghostwhite{
