@@ -245,8 +245,8 @@ h5 {
 
 .header{
 
-background-image: url("covercompressed.jpg");
- background-size: cover;
+background-image: url("https://assets.dailyprincetonian.com/projects.dailyprincetonian.com/commencement-2022/header-back.png");
+ background-size: 100% 100%;
  background-attachment: initial;
  background-position: bottom;
  text-align: center

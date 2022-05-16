@@ -9,7 +9,7 @@
         links and social media, so be sure to change this to whatever the
          dominant media will be
     -->
-	<meta property=“og:image” content="styles/whatnext.png">
+	<meta property=“og:image” content="https://assets.dailyprincetonian.com/projects.dailyprincetonian.com/commencement-2022/whatnext.png">
 
 	<!--
         CHANGE THIS! Make the content something meaningful to the article
@@ -113,8 +113,22 @@ $(document).ready(function(){
 <div class = "header" id = "top">
     	<a class = "logo" href="https://www.dailyprincetonian.com"><img src="https://assets.dailyprincetonian.com/projects.dailyprincetonian.com/commencement-2022/princelogo.png" style="width: 200px; padding-top:10px;" /></a>
 
-      <img style = "vertical-align: bottom; padding-top:1%" src = "images/gatecrop.svg">
+      <img style = "visibility: hidden; vertical-align: bottom; padding-top:1%" src = "https://assets.dailyprincetonian.com/projects.dailyprincetonian.com/commencement-2022/gatecrop.svg">
 </div>
+
+<script src="./confetti.js"></script>
+<script>
+  const start = () => {
+    setTimeout(function(){
+      confetti.start();
+    });
+  };
+
+  start();
+  setTimeout(function(){
+    confetti.stop();
+  }, 5000);
+</script>
   
   <div class = "intro">
 
@@ -152,12 +166,12 @@ $(document).ready(function(){
 </div>
 <section id = "year1" class = "panel" data-color = "yeartwo">
   
-  <figure style="background-image: url(styles/year2.jpg)">
+  <figure style="background-image: url(https://assets.dailyprincetonian.com/projects.dailyprincetonian.com/commencement-2022/year2.jpg)">
   <a href = "#top">
-  <img src = "styles/chevup.svg" class = "arrow">
+  <img src = "https://assets.dailyprincetonian.com/projects.dailyprincetonian.com/commencement-2022/chevup.svg" class = "arrow">
   </a>
     <h1>Year One</h1>
-    <a href = "#year2">    <img src = "styles/chevdown.svg" class = "arrow arrow-bottom" >
+    <a href = "#year2">    <img src = "https://assets.dailyprincetonian.com/projects.dailyprincetonian.com/commencement-2022/chevdown.svg" class = "arrow arrow-bottom" >
     </a>
   </figure>
   
@@ -309,13 +323,13 @@ $(document).ready(function(){
 
 <section id = "year2" data-color="yearone" class = "panel">
   
-  <figure style="background-image: url(styles/year3.jpg)">
+  <figure style="background-image: url(https://assets.dailyprincetonian.com/projects.dailyprincetonian.com/commencement-2022/year3.jpg)">
    <a href = "#year1">
-  <img src = "styles/chevup.svg" class = "arrow">
+  <img src = "https://assets.dailyprincetonian.com/projects.dailyprincetonian.com/commencement-2022/chevup.svg" class = "arrow">
   </a>
     <h1>Year Two</h1>
     <a href = "#year3">
-  <img src = "styles/chevdown.svg" class = "arrow arrow-bottom">
+  <img src = "https://assets.dailyprincetonian.com/projects.dailyprincetonian.com/commencement-2022/chevdown.svg" class = "arrow arrow-bottom">
   </a>
   </figure>
   
@@ -740,11 +754,11 @@ $(document).ready(function(){
   
   <figure style="background-image: url(https://photos.smugmug.com/photos/i-qtBr698/0/X4/i-qtBr698-X4.jpg)">
      <a href = "#year2">
-  <img src = "styles/chevup.svg" class = "arrow">
+  <img src = "https://assets.dailyprincetonian.com/projects.dailyprincetonian.com/commencement-2022/chevup.svg" class = "arrow">
   </a>
     <h1>Year Three</h1>
     <a href = "#year4">
-  <img src = "styles/chevdown.svg" class = "arrow arrow-bottom">
+  <img src = "https://assets.dailyprincetonian.com/projects.dailyprincetonian.com/commencement-2022/chevdown.svg" class = "arrow arrow-bottom">
   </a>
   </figure>
   
@@ -1001,11 +1015,11 @@ $(document).ready(function(){
   
   <figure style="background-image: url(https://assets.dailyprincetonian.com/projects.dailyprincetonian.com/commencement-2022/jacket.jpg)">
      <a href = "#year3">
-  <img src = "styles/chevup.svg" class = "arrow">
+  <img src = "https://assets.dailyprincetonian.com/projects.dailyprincetonian.com/commencement-2022/chevup.svg" class = "arrow">
   </a>
     <h1>Year Four</h1>
     <a href = "#yeargrad">
-  <img src = "styles/chevdown.svg" class = "arrow arrow-bottom">
+  <img src = "https://assets.dailyprincetonian.com/projects.dailyprincetonian.com/commencement-2022/chevdown.svg" class = "arrow arrow-bottom">
   </a>
   </figure>
   
@@ -1240,13 +1254,13 @@ $(document).ready(function(){
 
 <section id = "yeargrad" data-color="yeargrad" class = "panel">
   
-  <figure style="background-image: url(styles/gradcol.jpeg)">
+  <figure style="background-image: url(https://assets.dailyprincetonian.com/projects.dailyprincetonian.com/commencement-2022/gradcol.jpeg)">
      <a href = "#year4">
-  <img src = "styles/chevup.svg" class = "arrow">
+  <img src = "https://assets.dailyprincetonian.com/projects.dailyprincetonian.com/commencement-2022/chevup.svg" class = "arrow">
   </a>
     <h1 id = "grad-headline">Grad College</h1>
    <a href = "#whats-next">
-  <img src = "styles/chevdown.svg" class = "arrow arrow-bottom">
+  <img src = "https://assets.dailyprincetonian.com/projects.dailyprincetonian.com/commencement-2022/chevdown.svg" class = "arrow arrow-bottom">
   </a>
   </figure>
   
@@ -1313,13 +1327,13 @@ $(document).ready(function(){
 </section>
 <section id = "whats-next" data-color="next" class = "panel">
   <!-- no -->
-  <figure style="background-image: url(./styles/covercompressed.jpg)">
+  <figure style="background-image: url(https://assets.dailyprincetonian.com/projects.dailyprincetonian.com/commencement-2022/covercompressed.jpg)">
    <a href = "#yeargrad">
-  <img src = "styles/chevup.svg" class = "arrow">
+  <img src = "https://assets.dailyprincetonian.com/projects.dailyprincetonian.com/commencement-2022/chevup.svg" class = "arrow">
   </a>
    
    <a href = "#credits">
-  <img src = "styles/chevdown.svg" class = "arrow arrow-bottom">
+  <img src = "https://assets.dailyprincetonian.com/projects.dailyprincetonian.com/commencement-2022/chevdown.svg" class = "arrow arrow-bottom">
   </a>
 
   </figure>
