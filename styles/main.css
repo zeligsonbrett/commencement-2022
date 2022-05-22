@@ -245,10 +245,10 @@ h5 {
 
 .header{
 
-background-image: url("https://assets.dailyprincetonian.com/projects.dailyprincetonian.com/commencement-2022/header-back.png");
- background-size: 100% 100%;
+background-image: url("https://assets.dailyprincetonian.com/projects.dailyprincetonian.com/commencement-2022/noconfettti-01.png");
+ background-size: cover;
  background-attachment: initial;
- background-position: bottom;
+ background-position: bottom -270px right 0;
  text-align: center
  }
 
@@ -517,8 +517,11 @@ h3.date{
     .article-box{
       
       flex-direction: column;
-     
+    }
 
+    .header{
+      background-size: cover;
+      background-position: bottom -40px right 0;
     }
 /* 
 #credits article{
