@@ -246,10 +246,13 @@ h5 {
 .header{
 
 background-image: url("https://assets.dailyprincetonian.com/projects.dailyprincetonian.com/commencement-2022/noconfettti-01.png");
+
  background-size: cover;
  background-attachment: initial;
- background-position: bottom -270px right 0;
- text-align: center
+ background-position: center;
+ text-align: center;
+ min-height: 100vh;
+ background-repeat: no-repeat;
  }
 
  .no-touch .header {
@@ -521,7 +524,8 @@ h3.date{
 
     .header{
       background-size: cover;
-      background-position: bottom -40px right 0;
+
+      min-height: 75vh;
     }
 /* 
 #credits article{
